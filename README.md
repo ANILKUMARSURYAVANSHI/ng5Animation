@@ -32,6 +32,7 @@ Add in component dacorator
       // transition('highlighted => normal', animate(800)) one way
     ])]
     )}
+    
     ```
 
    ## Here we declare animation name in trigger ,

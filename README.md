@@ -14,7 +14,8 @@ Add animation by property binding with annotation the
 ## Angular Animation , keyframes , transition , translate , scale 
 
 Add in component dacorator 
-`@Component({
+```
+@Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   animations : [
@@ -30,7 +31,8 @@ Add in component dacorator
       transition('normal <=> highlighted', animate(300)),
       // transition('highlighted => normal', animate(800)) one way
     ])]
-    )}`
+    )}
+    ```
 
     Here we declare animation name in trigger ,
     give state for transition in side style function as js object

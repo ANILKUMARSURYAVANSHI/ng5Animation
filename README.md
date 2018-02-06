@@ -38,9 +38,9 @@ Add in component dacorator
 
     We can also give starting Stage 
     export class AppComponent {
-  state = 'normal';
-  .....
-    }
+      state = 'normal';
+      .....
+      }
 
 
 

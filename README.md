@@ -13,6 +13,35 @@ Add animation by property binding with annotation the
 
 ## Angular Animation , keyframes , transition , translate , scale 
 
+Add in component dacorator 
+`@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  animations : [
+    trigger('divState', [
+      state('normal', style({
+        'background-color': 'red',
+        transform: 'translateX(0)'
+      })),
+      state('highlighted', style({
+        'background-color':'blue',
+        transform: 'translateX(100px)'
+      })),
+      transition('normal <=> highlighted', animate(300)),
+      // transition('highlighted => normal', animate(800)) one way
+    ])]
+    )}`
+
+    Here we declare animation name in trigger ,
+    give state for transition in side style function as js object
+    also transform 
+
+    We can also give starting Stage 
+    export class AppComponent {
+  state = 'normal';
+  .....
+    }
+
 
 
 

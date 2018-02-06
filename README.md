@@ -34,7 +34,7 @@ Add in component dacorator
     )}
     ```
 
-    Here we declare animation name in trigger ,
+   ## Here we declare animation name in trigger ,
     give state for transition in side style function as js object
     also transform 
 
